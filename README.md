@@ -2,5 +2,5 @@ Profesjonalny montaż bram, elo
 
 
 
-![Image](https://imgflip.com/i/48vwb1)
+![Image](https://i.imgflip.com/48vwb1.jpg)
 
