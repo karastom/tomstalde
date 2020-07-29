@@ -662,7 +662,7 @@ header nav.header-fancy .nav-container{
 }
 header nav.header-fancy.core-nav{
 	padding:0px;
-	top: 30px;
+	top: 10px;
 }
 header nav.header-fancy .menu li a {
     padding: 25px 20px;
@@ -721,10 +721,10 @@ header nav.header-fancy.on-scroll .nav-container {
 		padding: 0px 0; position: fixed
 	}
 	header.top-bar nav.header-fancy.core-nav.nav-core-sticky {
-		top: 57px; position: fixed;
+		 position: fixed;
 	}
 	header.top-bar nav.header-fancy.core-nav.nav-core-sticky.on-scroll {
-		top: 57px; position: fixed;
+		position: fixed;
 	}
 }
 
