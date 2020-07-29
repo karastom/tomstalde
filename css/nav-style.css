@@ -284,14 +284,14 @@ nav .menu .megamenu-content li a {
 /* =========================== */
 
 
-nav.core-nav.nav-core-fixed, nav.core-nav.nav-core-sticky {
+nav.core-nav.nav-core-fixed, nav.core-nav.nav-core-sticky,nav.nav-core-sticky .nav-header, nav.nav-core-sticky.on-scroll .nav-header , nav.nav-core-sticky .wrap-core-nav-list  {
     background-color: transparent;
 	border-bottom:none;
 }
-nav.nav-core-fixed .wrap-core-nav-list, nav.nav-core-fixed .nav-header, nav.core-nav.nav-core-sticky, nav.nav-core-sticky .wrap-core-nav-list, nav.nav-core-sticky .nav-header {
-    background: transparent;
+nav.nav-core-fixed .wrap-core-nav-list, nav.nav-core-fixed .nav-header, nav.core-nav.nav-core-sticky{
+    background: rgba(242, 206, 145, 0.7);
 }
-nav.core-nav.nav-core-sticky.on-scroll, nav.nav-core-sticky.on-scroll .wrap-core-nav-list, nav.nav-core-sticky.on-scroll .nav-header {
+nav.core-nav.nav-core-sticky.on-scroll, nav.nav-core-sticky.on-scroll .wrap-core-nav-list {
     background: #ffffff;
 }
 .top-bar .core-nav.nav-core-sticky {
