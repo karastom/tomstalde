@@ -502,15 +502,27 @@
 							</ul>
 						</div>
                     </div>
-					 <div class="col-xl-6 col-12">
+					  <div class="col-xl-6 col-12">
 					 	<form action="https://submit-form.com/Xi0l4Mfe5FMsIF-hguh-n" target="_self">
-   <!-- All elements must have a name attribute -->
-   <input type="text" name="subject" placeholder="Subject">
-   <textarea name="message" placeholder="Message"></textarea>
-   <input type="text" name="email" placeholder="Email">
-   <!-- A button of type submit -->
-   <button type="submit">Submit</button>
-</form>
+                            <div class="contact-form form-border clearfix">
+                                <div class="form-field w-100">
+                                    <input type="text" placeholder="Name*" class="form-control" name="InputName" id="InputName" required >
+                                </div>
+                                <div class="form-field w-100">
+                                    <input type="email" placeholder="Email*" class="form-control" name="InputEmail" id="InputEmail" required >
+                                </div>
+                                <div class="form-field w-100">
+                                    <input type="text" placeholder="Phone*" class="form-control" name="InputPhone" id="InputPhone" required >
+                                </div>
+                                <div class="form-field textarea">
+                                    <textarea class="form-control input-message" placeholder="Comment*" rows="4" name="InputMessage" id="InputMessage"></textarea>
+                                </div>
+                                <div class="form-field submit-button w-auto">
+                                    <button id="submit" name="submit" type="submit" value="Send" class="cs-button"> Send</button>
+                                </div>
+                            </div>
+                        </form>
+					 </div>
 					 </div>
                 </div>
             </div>
