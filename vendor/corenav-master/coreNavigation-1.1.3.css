@@ -193,7 +193,6 @@ Core Navigation
 
 .core-nav .wrap-core-nav-list.right {
 	text-align: right;
-	padding-bottom: 0px;
 }
 
 .core-nav .wrap-core-nav-list.center {
@@ -424,13 +423,13 @@ Fullscreen
 	}
 	.core-nav.fullscreen .wrap-core-nav-list .menu li {
 		float: none;
-		display: inline-block;
+		display: block;
 	}
 	.core-nav.fullscreen.open-fullscreen .core-nav-toggle {
 		right: 30px;
 	}
 	.core-nav.fullscreen.open-fullscreen .wrap-core-nav-list {
-		display: inline-block;
+		display: block;
 	}
 }
 
