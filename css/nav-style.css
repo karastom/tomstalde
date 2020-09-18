@@ -72,7 +72,7 @@ nav.nav-white.nav-transparent ul.attributes li a:hover {
 nav .menu li.active > a,
 nav .menu li a:hover {
     color: #FF981A !important;    
-	text-decoration: overline !important;
+	text-decoration: underline !important;
 }
 
 nav button {
@@ -665,7 +665,7 @@ header nav.header-fancy.core-nav{
 	top: 30px;
 }
 header nav.header-fancy .menu li a {
-    padding: 25px 20px;
+    padding: 45px 45px;
 }
 header nav.header-fancy .brand {
     padding: 6px 0px;
